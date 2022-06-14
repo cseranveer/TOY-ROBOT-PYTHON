@@ -100,7 +100,6 @@ while 1:
                     MNA()
                 else:
                     x = x-1
-
         elif ins == 'RIGHT':
             if(face =='NORTH'):
                     if(y+1 >MAX):
@@ -133,12 +132,3 @@ while 1:
         drawFrame()
     else:
         isPositionInitialized = initializePosition(ins)
-
-
-
-        
-
-    
-    
-
-
